@@ -113,7 +113,7 @@ p.detalle  {
     line-height: 5.5rem;
     border: solid 1px #ffffff;
     border-radius: 100%;
-    margin: 0 auto;
+    margin: 0 auto 20px;
 }
 
 .cake .icon:before {
