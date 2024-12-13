@@ -19,7 +19,7 @@ h1.titulo {
     margin: 0 auto 50px;
     background: #1DB53C80;
     border-radius: 5px;
-    padding: 15px 0;
+    padding: 15px 20px;
     font-family: 'Minecraft', sans-serif;
 }
 
@@ -33,7 +33,7 @@ p.detalle  {
     font-size: 22px;
     margin: 0;
     text-transform: uppercase;
-    padding: 15px 0;
+    padding: 15px 20px;
     background: #1DB53C80;
     border-radius: 5px;
 }
@@ -69,7 +69,7 @@ p.info {
 @media screen and (min-width: 992px) {
     .countdown {
         font-size: 48px;
-        width: 50%;
+        width: 70%;
 
     }
 
@@ -82,6 +82,7 @@ p.info {
     transform: rotate(45deg);
     top: 20px;
     right: 20px;
+    width: 30%;
     max-width: 300px;
 }
 
@@ -92,6 +93,15 @@ p.info {
 }
 
 
+.imagen-3 {
+    width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    .imagen-3 {
+        width: 30%;
+    }
+}
 
 .cake {
     width: 5.5rem;
