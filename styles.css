@@ -93,11 +93,20 @@ p.info {
 }
 
 
+
+.imagen-1 {
+    width: 50%;
+}
+
 .imagen-3 {
     width: 100%;
 }
 
 @media screen and (min-width: 992px) {
+    .imagen-1 {
+        width: 35%;
+    }
+
     .imagen-3 {
         width: 30%;
     }
