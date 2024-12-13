@@ -5,7 +5,7 @@ $(document).ready(function() {
         const diff = eventDate - now;
 
         if (diff <= 0) {
-            $('#countdown').text('¡Es el día del cumpleaños!');
+            $('#countdown > div').text('¡Es el día del cumpleaños!');
             return;
         }
 
@@ -14,7 +14,7 @@ $(document).ready(function() {
         const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-        $('#countdown').html(`<div>${days}<span>días</span></div><div>${hours}<span>horas</span></div><div>${minutes}<span>minutos</span></div><div>${seconds}<span>segs.</span></div>`);
+        $('#countdown > div').html(`<div>${days}<span>días</span></div><div>${hours}<span>horas</span></div><div>${minutes}<span>minutos</span></div><div>${seconds}<span>segs.</span></div>`);
     }
 
     setInterval(updateCountdown, 1000);
