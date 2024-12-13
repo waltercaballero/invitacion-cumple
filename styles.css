@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: url('assets/minecraft-bg.jpeg') no-repeat center center fixed;
+    background: url('assets/minecraft-bg.jpeg') no-repeat center center;
     background-size: cover;
     color: #fff;
     text-align: center;
