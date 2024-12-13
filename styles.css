@@ -82,10 +82,34 @@ p.info {
     transform: rotate(45deg);
     top: 20px;
     right: 20px;
+    max-width: 300px;
 }
 
 .botones a {
     text-transform: uppercase;
     font-size: 22px;
     font-weight: 500;
+}
+
+
+
+.cake {
+    width: 5.5rem;
+    height: 5.5rem;
+    line-height: 5.5rem;
+    border: solid 1px #ffffff;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.cake .icon:before {
+    font-size: 2rem;
+}
+
+
+
+.logo-arvolar {
+    width: 60px;
+    display: inline-block;
+    margin-left: 10px;
 }
