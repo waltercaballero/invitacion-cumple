@@ -33,7 +33,7 @@ p.detalle  {
     font-size: 22px;
     margin: 0;
     text-transform: uppercase;
-    padding: 15px 20px;
+    padding: 15px 0;
     background: #1DB53C80;
     border-radius: 5px;
 }
@@ -44,11 +44,6 @@ p.detalle  {
     }
 }
 
-p.info {
-    font-size: 22px;
-    text-transform: uppercase;
-    font-weight: 600;
-}
 
 .countdown {
     font-size: 28px;
