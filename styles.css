@@ -58,6 +58,8 @@ p.detalle  {
     padding: 15px 20px;
     background: #1DB53C80;
     border-radius: 5px;
+    font-family: 'Minecraft', sans-serif;
+    letter-spacing: 1.5px;
 
     /*background: url('assets/minecraft-bg-2.jpg') no-repeat center center;
     background-size: cover;*/

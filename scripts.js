@@ -14,7 +14,7 @@ $(document).ready(function() {
         const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-        $('#countdown > div').html(`<div>${days}<span>días</span></div><div>${hours}<span>horas</span></div><div>${minutes}<span>minutos</span></div><div>${seconds}<span>segs.</span></div>`);
+        $('#countdown > div').html(`<div>${days}<span>días</span></div><div>${hours}<span>hrs.</span></div><div>${minutes}<span>mins.</span></div><div>${seconds}<span>segs.</span></div>`);
     }
 
     setInterval(updateCountdown, 1000);
