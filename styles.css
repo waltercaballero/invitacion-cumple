@@ -21,6 +21,9 @@ h1.titulo {
     border-radius: 5px;
     padding: 15px 20px;
     font-family: 'Minecraft', sans-serif;
+
+    /*background: url('assets/minecraft-bg-2.jpg') no-repeat center center;
+    background-size: cover;*/
 }
 
 @media screen and (min-width: 992px) {
@@ -36,6 +39,9 @@ p.detalle  {
     padding: 15px 0;
     background: #1DB53C80;
     border-radius: 5px;
+
+    background: url('assets/minecraft-bg-2.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 @media screen and (min-width: 992px) {
@@ -52,6 +58,9 @@ p.detalle  {
     padding: 15px 20px;
     background: #1DB53C80;
     border-radius: 5px;
+
+    /*background: url('assets/minecraft-bg-2.jpg') no-repeat center center;
+    background-size: cover;*/
 
 }
 
@@ -79,6 +88,12 @@ p.detalle  {
     right: 20px;
     width: 30%;
     max-width: 300px;
+}
+
+.botones {
+    background: url('assets/minecraft-bg-2.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px 0;
 }
 
 .botones a {
